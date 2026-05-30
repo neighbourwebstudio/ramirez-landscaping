@@ -2,16 +2,16 @@ const defaultSite = {
   businessName: "Ramirez Landscaping",
   shortLine: "Landscape & yard cleanup",
   serviceArea: "Serving Lathrop",
-  tagline: "Yard cleanup, trimming, repairs, and hauling for clean outdoor spaces.",
+  tagline: "Yard cleanup, trimming, fence work, repairs, and hauling for clean outdoor spaces.",
   estimateLine: "Call or text to schedule a walk-through.",
   contactIntro:
-    "Call or text for yard cleanup, trimming, fence repairs, gutter cleaning, trash removal, and weed removal.",
+    "Call or text for yard cleanup, trimming, fence repair, fence cleaning, fence painting, new fence installation, gutter cleaning, trash removal, and weed removal.",
   phone: "209-420-5721",
   phoneDisplay: "209-420-5721",
   email: "Tommy_09@live.com.mx",
   hours: "Call or text for availability",
   footerLine:
-    "Tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
+    "Tree trimming, bush trimming, fence repair, fence cleaning, fence painting, new fence installation, trash removal, yard cleaning, gutter cleaning, and weed removal.",
   heroImage: "assets/uploads/hero-lawn-trimming.jpg",
   services: [
     {
@@ -23,8 +23,8 @@ const defaultSite = {
       description: "Shape front-yard and backyard bushes so entrances, windows, and paths look clean."
     },
     {
-      title: "Fence repairs",
-      description: "Handle small fence fixes, loose boards, leaning sections, and basic repair needs."
+      title: "Fence repair and installation",
+      description: "Repair loose boards, clean or paint fences, and install new fence sections when needed."
     },
     {
       title: "Trash removal",
@@ -64,6 +64,27 @@ const defaultGallery = {
       description: "Use this space for weed removal, cleanup, and haul-away jobs."
     },
     {
+      title: "Fence repair",
+      location: "Lathrop",
+      image: "assets/uploads/fence-repair-example.jpg",
+      alt: "Repaired wooden backyard fence with fresh replacement boards",
+      description: "Loose boards and damaged sections repaired for a cleaner, safer fence line."
+    },
+    {
+      title: "Fence painting and staining",
+      location: "Lathrop",
+      image: "assets/uploads/fence-painting-staining-example.jpg",
+      alt: "Freshly painted or stained wooden backyard fence",
+      description: "Fresh paint or stain helps protect wood and gives the yard a clean finished look."
+    },
+    {
+      title: "New fence installation",
+      location: "Lathrop",
+      image: "assets/uploads/new-fence-installation-example.jpg",
+      alt: "Newly installed wooden privacy fence in a backyard",
+      description: "New fence panels installed with straight posts, clean lines, and a tidy finish."
+    },
+    {
       title: "Fence and yard detail",
       location: "Lathrop",
       image:
@@ -83,18 +104,18 @@ const defaultGallery = {
 
 const staticCopy = {
   en: {
-    title: "Ramirez Landscaping | Lathrop Yard Cleaning, Trimming, Repairs",
+    title: "Ramirez Landscaping | Lathrop Yard Cleaning, Fence Work, Trimming",
     description:
-      "Ramirez Landscaping helps Lathrop homeowners with tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
-    ogDescription: "Lathrop landscaping, trimming, repairs, and cleanup services.",
+      "Ramirez Landscaping helps Lathrop homeowners with tree trimming, bush trimming, fence repair, fence cleaning, fence painting, new fence installation, trash removal, yard cleaning, gutter cleaning, and weed removal.",
+    ogDescription: "Lathrop landscaping, fence work, trimming, repairs, and cleanup services.",
     languageLabel: "Language",
     skipLink: "Skip to content",
     navServices: "Services",
-    navPastWork: "Past Work",
+    navPastWork: "Gallery",
     navProcess: "How It Works",
     navContact: "Contact",
     callText: "Call / Text",
-    viewPastWork: "View Past Work",
+    viewPastWork: "View Gallery",
     quickFreeTitle: "Free estimates",
     quickCleanTitle: "Clean finish",
     quickCleanText: "Trimming, weed removal, cleanup, and haul-away.",
@@ -103,11 +124,11 @@ const staticCopy = {
     servicesEyebrow: "Services",
     servicesTitle: "Outdoor work handled cleanly",
     servicesIntro:
-      "From overgrown bushes to fence repairs and trash removal, Ramirez Landscaping keeps yards manageable and ready to use.",
-    workEyebrow: "Past Work",
-    workTitle: "Before-and-after ready gallery",
+      "From overgrown bushes to fence repair, painting, installation, and trash removal, Ramirez Landscaping keeps yards manageable and ready to use.",
+    workEyebrow: "Gallery",
+    workTitle: "Project examples and past work",
     workIntro:
-      "This section is ready for real project photos from front yards, backyards, cleanup jobs, trimming work, and repairs.",
+      "This section can show Ramirez project photos as they become available, along with service examples for fence work, cleanup, trimming, and repairs.",
     processEyebrow: "How It Works",
     processTitle: "Simple scheduling, tidy results",
     processIntro:
@@ -129,18 +150,18 @@ const staticCopy = {
     hoursLabel: "Hours"
   },
   es: {
-    title: "Ramirez Landscaping | Limpieza y poda de yardas en Lathrop",
+    title: "Ramirez Landscaping | Limpieza, cercas y poda en Lathrop",
     description:
-      "Ramirez Landscaping ayuda a dueños de casa en Lathrop con poda de árboles, poda de arbustos, reparación de cercas, retiro de basura, limpieza de yardas, limpieza de canaletas y retiro de maleza.",
-    ogDescription: "Paisajismo, poda, reparaciones y limpieza en Lathrop.",
+      "Ramirez Landscaping ayuda a dueños de casa en Lathrop con poda de árboles, poda de arbustos, reparación de cercas, limpieza de cercas, pintura de cercas, instalación de cercas nuevas, retiro de basura, limpieza de yardas, limpieza de canaletas y retiro de maleza.",
+    ogDescription: "Paisajismo, cercas, poda, reparaciones y limpieza en Lathrop.",
     languageLabel: "Idioma",
     skipLink: "Saltar al contenido",
     navServices: "Servicios",
-    navPastWork: "Trabajos",
+    navPastWork: "Galería",
     navProcess: "Proceso",
     navContact: "Contacto",
     callText: "Llamar / Texto",
-    viewPastWork: "Ver trabajos",
+    viewPastWork: "Ver galería",
     quickFreeTitle: "Estimados gratis",
     quickCleanTitle: "Trabajo limpio",
     quickCleanText: "Poda, retiro de maleza, limpieza y retiro de desechos.",
@@ -149,11 +170,11 @@ const staticCopy = {
     servicesEyebrow: "Servicios",
     servicesTitle: "Trabajo exterior bien hecho",
     servicesIntro:
-      "Desde arbustos crecidos hasta reparaciones de cercas y retiro de basura, Ramirez Landscaping mantiene las yardas limpias y listas para usar.",
-    workEyebrow: "Trabajos",
-    workTitle: "Galería de antes y después",
+      "Desde arbustos crecidos hasta reparación, pintura e instalación de cercas y retiro de basura, Ramirez Landscaping mantiene las yardas limpias y listas para usar.",
+    workEyebrow: "Galería",
+    workTitle: "Ejemplos de trabajo y proyectos",
     workIntro:
-      "Esta sección muestra fotos de trabajos en yardas de enfrente, patios traseros, limpiezas, poda y reparaciones.",
+      "Esta sección puede mostrar fotos reales de Ramirez cuando estén disponibles, junto con ejemplos de servicios de cercas, limpieza, poda y reparaciones.",
     processEyebrow: "Cómo funciona",
     processTitle: "Agenda fácil, resultados limpios",
     processIntro:
@@ -179,13 +200,13 @@ const staticCopy = {
 const spanishSiteText = {
   shortLine: "Paisajismo y limpieza de yardas",
   serviceArea: "Sirviendo a Lathrop",
-  tagline: "Limpieza de yardas, poda, reparaciones y retiro para espacios exteriores limpios.",
+  tagline: "Limpieza de yardas, poda, cercas, reparaciones y retiro para espacios exteriores limpios.",
   estimateLine: "Llame o envíe texto para programar una visita.",
   contactIntro:
-    "Llame o envíe texto para limpieza de yardas, poda, reparación de cercas, limpieza de canaletas, retiro de basura y retiro de maleza.",
+    "Llame o envíe texto para limpieza de yardas, poda, reparación de cercas, limpieza de cercas, pintura de cercas, instalación de cercas nuevas, limpieza de canaletas, retiro de basura y retiro de maleza.",
   hours: "Llame o envíe texto para disponibilidad",
   footerLine:
-    "Poda de árboles, poda de arbustos, reparación de cercas, retiro de basura, limpieza general de yardas, limpieza de canaletas y retiro de maleza.",
+    "Poda de árboles, poda de arbustos, reparación de cercas, limpieza de cercas, pintura de cercas, instalación de cercas nuevas, retiro de basura, limpieza general de yardas, limpieza de canaletas y retiro de maleza.",
   services: [
     {
       title: "Poda de árboles",
@@ -196,8 +217,8 @@ const spanishSiteText = {
       description: "Dar forma a arbustos del frente y patio para que entradas, ventanas y caminos se vean limpios."
     },
     {
-      title: "Reparación de cercas",
-      description: "Arreglos pequeños de cercas, tablas sueltas, secciones inclinadas y reparaciones básicas."
+      title: "Reparación e instalación de cercas",
+      description: "Reparar tablas sueltas, limpiar o pintar cercas e instalar secciones nuevas cuando sea necesario."
     },
     {
       title: "Retiro de basura",
@@ -228,6 +249,21 @@ const spanishGalleryText = [
     title: "Limpieza de patio trasero",
     alt: "Área de jardín limpia en un patio trasero",
     description: "Espacio para trabajos de retiro de maleza, limpieza y retiro de desechos."
+  },
+  {
+    title: "Reparación de cerca",
+    alt: "Cerca de madera reparada con tablas nuevas",
+    description: "Tablas sueltas y secciones dañadas reparadas para una cerca más limpia y segura."
+  },
+  {
+    title: "Pintura y tinte de cercas",
+    alt: "Cerca de madera recién pintada o teñida",
+    description: "Pintura o tinte fresco ayuda a proteger la madera y deja un acabado limpio."
+  },
+  {
+    title: "Instalación de cerca nueva",
+    alt: "Cerca nueva de madera instalada en un patio",
+    description: "Paneles nuevos instalados con postes rectos, líneas limpias y un acabado ordenado."
   },
   {
     title: "Detalle de cerca y yarda",

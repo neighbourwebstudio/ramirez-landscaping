@@ -2,14 +2,14 @@
   "businessName": "Ramirez Landscaping",
   "shortLine": "Landscape & yard cleanup",
   "serviceArea": "Serving Lathrop",
-  "tagline": "Yard cleanup, trimming, repairs, and hauling for clean outdoor spaces.",
+  "tagline": "Yard cleanup, trimming, fence work, repairs, and hauling for clean outdoor spaces.",
   "estimateLine": "Call or text to schedule a walk-through.",
-  "contactIntro": "Call or text for yard cleanup, trimming, fence repairs, gutter cleaning, trash removal, and weed removal.",
+  "contactIntro": "Call or text for yard cleanup, trimming, fence repair, fence cleaning, fence painting, new fence installation, gutter cleaning, trash removal, and weed removal.",
   "phone": "209-420-5721",
   "phoneDisplay": "209-420-5721",
   "email": "Tommy_09@live.com.mx",
   "hours": "Call or text for availability",
-  "footerLine": "Tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
+  "footerLine": "Tree trimming, bush trimming, fence repair, fence cleaning, fence painting, new fence installation, trash removal, yard cleaning, gutter cleaning, and weed removal.",
   "heroImage": "assets/uploads/hero-lawn-trimming.jpg",
   "services": [
     {
@@ -21,8 +21,8 @@
       "description": "Shape front-yard and backyard bushes so entrances, windows, and paths look clean."
     },
     {
-      "title": "Fence repairs",
-      "description": "Handle small fence fixes, loose boards, leaning sections, and basic repair needs."
+      "title": "Fence repair and installation",
+      "description": "Repair loose boards, clean or paint fences, and install new fence sections when needed."
     },
     {
       "title": "Trash removal",
