@@ -12,8 +12,7 @@ const defaultSite = {
   hours: "Call or text for availability",
   footerLine:
     "Tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
-  heroImage:
-    "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1800&q=82",
+  heroImage: "/assets/uploads/hero-lawn-trimming.jpg",
   services: [
     {
       title: "Tree trimming",
