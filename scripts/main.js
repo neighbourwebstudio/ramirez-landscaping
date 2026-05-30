@@ -12,7 +12,7 @@ const defaultSite = {
   hours: "Call or text for availability",
   footerLine:
     "Tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
-  heroImage: "/assets/uploads/hero-lawn-trimming.jpg",
+  heroImage: "assets/uploads/hero-lawn-trimming.jpg",
   services: [
     {
       title: "Tree trimming",
@@ -70,6 +70,13 @@ const defaultGallery = {
         "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=900&q=78",
       alt: "Clean yard near a wood fence",
       description: "Add real repair and cleanup photos after the first projects are ready."
+    },
+    {
+      title: "Gutter cleaning before and after",
+      location: "Lathrop",
+      image: "assets/uploads/gutter-cleaning-before-after.jpg",
+      alt: "Before and after view of a rain gutter with leaves removed from one section",
+      description: "A clear look at gutter debris removal and a freshly cleaned section."
     }
   ]
 };
