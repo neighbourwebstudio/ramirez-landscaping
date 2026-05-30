@@ -81,6 +81,170 @@ const defaultGallery = {
   ]
 };
 
+const staticCopy = {
+  en: {
+    title: "Ramirez Landscaping | Lathrop Yard Cleaning, Trimming, Repairs",
+    description:
+      "Ramirez Landscaping helps Lathrop homeowners with tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
+    ogDescription: "Lathrop landscaping, trimming, repairs, and cleanup services.",
+    languageLabel: "Language",
+    skipLink: "Skip to content",
+    navServices: "Services",
+    navPastWork: "Past Work",
+    navProcess: "How It Works",
+    navContact: "Contact",
+    callText: "Call / Text",
+    viewPastWork: "View Past Work",
+    quickFreeTitle: "Free estimates",
+    quickCleanTitle: "Clean finish",
+    quickCleanText: "Trimming, weed removal, cleanup, and haul-away.",
+    quickFlexibleTitle: "Flexible jobs",
+    quickFlexibleText: "One-time projects, seasonal cleanups, and small repairs.",
+    servicesEyebrow: "Services",
+    servicesTitle: "Outdoor work handled cleanly",
+    servicesIntro:
+      "From overgrown bushes to fence repairs and trash removal, Ramirez Landscaping keeps yards manageable and ready to use.",
+    workEyebrow: "Past Work",
+    workTitle: "Before-and-after ready gallery",
+    workIntro:
+      "This section is ready for real project photos from front yards, backyards, cleanup jobs, trimming work, and repairs.",
+    processEyebrow: "How It Works",
+    processTitle: "Simple scheduling, tidy results",
+    processIntro:
+      "A straightforward flow makes it easy for homeowners to understand the job, agree on the work, and get the yard cleaned up.",
+    processOneTitle: "Request an estimate",
+    processOneText: "Send the address, a few details, and photos if helpful.",
+    processTwoTitle: "Walk the yard",
+    processTwoText: "Confirm trimming, cleanup, repair, or removal needs.",
+    processThreeTitle: "Complete the work",
+    processThreeText: "Trim, repair, remove weeds, clean gutters, or haul trash.",
+    processFourTitle: "Leave it clean",
+    processFourText: "Finish with a tidy work area and clear before-and-after results.",
+    contactEyebrow: "Contact",
+    sendText: "Send Text",
+    emailAction: "Email",
+    phoneLabel: "Phone",
+    emailLabel: "Email",
+    serviceAreaLabel: "Service area",
+    hoursLabel: "Hours"
+  },
+  es: {
+    title: "Ramirez Landscaping | Limpieza y poda de yardas en Lathrop",
+    description:
+      "Ramirez Landscaping ayuda a dueños de casa en Lathrop con poda de árboles, poda de arbustos, reparación de cercas, retiro de basura, limpieza de yardas, limpieza de canaletas y retiro de maleza.",
+    ogDescription: "Paisajismo, poda, reparaciones y limpieza en Lathrop.",
+    languageLabel: "Idioma",
+    skipLink: "Saltar al contenido",
+    navServices: "Servicios",
+    navPastWork: "Trabajos",
+    navProcess: "Proceso",
+    navContact: "Contacto",
+    callText: "Llamar / Texto",
+    viewPastWork: "Ver trabajos",
+    quickFreeTitle: "Estimados gratis",
+    quickCleanTitle: "Trabajo limpio",
+    quickCleanText: "Poda, retiro de maleza, limpieza y retiro de desechos.",
+    quickFlexibleTitle: "Trabajos flexibles",
+    quickFlexibleText: "Proyectos de una vez, limpiezas por temporada y reparaciones pequeñas.",
+    servicesEyebrow: "Servicios",
+    servicesTitle: "Trabajo exterior bien hecho",
+    servicesIntro:
+      "Desde arbustos crecidos hasta reparaciones de cercas y retiro de basura, Ramirez Landscaping mantiene las yardas limpias y listas para usar.",
+    workEyebrow: "Trabajos",
+    workTitle: "Galería de antes y después",
+    workIntro:
+      "Esta sección muestra fotos de trabajos en yardas de enfrente, patios traseros, limpiezas, poda y reparaciones.",
+    processEyebrow: "Cómo funciona",
+    processTitle: "Agenda fácil, resultados limpios",
+    processIntro:
+      "Un proceso sencillo ayuda a confirmar el trabajo, acordar los detalles y dejar la yarda limpia.",
+    processOneTitle: "Pida un estimado",
+    processOneText: "Envíe la dirección, algunos detalles y fotos si ayudan.",
+    processTwoTitle: "Revisar la yarda",
+    processTwoText: "Confirmar poda, limpieza, reparación o retiro necesario.",
+    processThreeTitle: "Completar el trabajo",
+    processThreeText: "Podar, reparar, retirar maleza, limpiar canaletas o retirar basura.",
+    processFourTitle: "Dejar todo limpio",
+    processFourText: "Terminar con el área ordenada y resultados claros.",
+    contactEyebrow: "Contacto",
+    sendText: "Enviar texto",
+    emailAction: "Correo",
+    phoneLabel: "Teléfono",
+    emailLabel: "Correo",
+    serviceAreaLabel: "Zona de servicio",
+    hoursLabel: "Horario"
+  }
+};
+
+const spanishSiteText = {
+  shortLine: "Paisajismo y limpieza de yardas",
+  serviceArea: "Sirviendo a Lathrop",
+  tagline: "Limpieza de yardas, poda, reparaciones y retiro para espacios exteriores limpios.",
+  estimateLine: "Llame o envíe texto para programar una visita.",
+  contactIntro:
+    "Llame o envíe texto para limpieza de yardas, poda, reparación de cercas, limpieza de canaletas, retiro de basura y retiro de maleza.",
+  hours: "Llame o envíe texto para disponibilidad",
+  footerLine:
+    "Poda de árboles, poda de arbustos, reparación de cercas, retiro de basura, limpieza general de yardas, limpieza de canaletas y retiro de maleza.",
+  services: [
+    {
+      title: "Poda de árboles",
+      description: "Recorte de ramas, apertura de caminos y mantenimiento alrededor de cercas y estructuras."
+    },
+    {
+      title: "Poda de arbustos y setos",
+      description: "Dar forma a arbustos del frente y patio para que entradas, ventanas y caminos se vean limpios."
+    },
+    {
+      title: "Reparación de cercas",
+      description: "Arreglos pequeños de cercas, tablas sueltas, secciones inclinadas y reparaciones básicas."
+    },
+    {
+      title: "Retiro de basura",
+      description: "Retiro de desechos de la yarda, artículos exteriores no deseados y basura después del trabajo."
+    },
+    {
+      title: "Limpieza general de yardas",
+      description: "Limpieza de áreas crecidas, hojas caídas, esquinas descuidadas y espacios exteriores."
+    },
+    {
+      title: "Limpieza de canaletas",
+      description: "Limpieza de canaletas y bajantes para que el agua de lluvia pueda fluir lejos de la casa."
+    },
+    {
+      title: "Retiro de maleza",
+      description: "Retiro de maleza en jardineras, líneas de cerca, caminos y orillas de la yarda."
+    }
+  ]
+};
+
+const spanishGalleryText = [
+  {
+    title: "Poda de arbustos en frente",
+    alt: "Paisajismo del frente con arbustos y plantas recortadas",
+    description: "Espacio para mostrar una foto real de poda en la yarda de enfrente."
+  },
+  {
+    title: "Limpieza de patio trasero",
+    alt: "Área de jardín limpia en un patio trasero",
+    description: "Espacio para trabajos de retiro de maleza, limpieza y retiro de desechos."
+  },
+  {
+    title: "Detalle de cerca y yarda",
+    alt: "Yarda limpia junto a una cerca de madera",
+    description: "Espacio para fotos de reparaciones y limpiezas terminadas."
+  },
+  {
+    title: "Limpieza de canaletas antes y después",
+    alt: "Vista de antes y después de una canaleta con hojas retiradas",
+    description: "Una vista clara del retiro de desechos y una sección limpia de la canaleta."
+  }
+];
+
+let loadedSite = defaultSite;
+let loadedGallery = defaultGallery;
+let currentLanguage = getInitialLanguage();
+
 async function loadJson(path, fallback) {
   try {
     const response = await fetch(path, { cache: "no-store" });
@@ -91,6 +255,131 @@ async function loadJson(path, fallback) {
   } catch {
     return fallback;
   }
+}
+
+function getInitialLanguage() {
+  try {
+    const params = new URLSearchParams(window.location.search);
+    const requestedLanguage = params.get("lang");
+
+    if (requestedLanguage === "es" || requestedLanguage === "en") {
+      return requestedLanguage;
+    }
+  } catch {
+    // Fall back to saved preference when URL parsing is unavailable.
+  }
+
+  try {
+    return localStorage.getItem("ramirez-language") === "es" ? "es" : "en";
+  } catch {
+    return "en";
+  }
+}
+
+function rememberLanguage(language) {
+  try {
+    localStorage.setItem("ramirez-language", language);
+  } catch {
+    // Ignore storage restrictions in file previews or private browsing.
+  }
+
+  try {
+    const url = new URL(window.location.href);
+
+    if (language === "es") {
+      url.searchParams.set("lang", "es");
+    } else {
+      url.searchParams.delete("lang");
+    }
+
+    window.history.replaceState({}, "", url);
+  } catch {
+    // Some preview contexts do not allow URL updates.
+  }
+}
+
+function getLocalizedSite(site, language) {
+  const mergedSite = { ...defaultSite, ...site };
+
+  if (language !== "es") {
+    return mergedSite;
+  }
+
+  return {
+    ...mergedSite,
+    ...spanishSiteText,
+    services: spanishSiteText.services
+  };
+}
+
+function getLocalizedGallery(gallery, language) {
+  const items = gallery.items || defaultGallery.items;
+
+  if (language !== "es") {
+    return { items };
+  }
+
+  return {
+    items: items.map((item, index) => ({
+      ...item,
+      ...(spanishGalleryText[index] || {})
+    }))
+  };
+}
+
+function applyStaticCopy(language) {
+  const copy = staticCopy[language] || staticCopy.en;
+  document.documentElement.lang = language;
+  document.title = copy.title;
+
+  const description = document.querySelector('meta[name="description"]');
+  const ogDescription = document.querySelector('meta[property="og:description"]');
+  const languageToggle = document.querySelector(".language-toggle");
+
+  if (description) {
+    description.setAttribute("content", copy.description);
+  }
+
+  if (ogDescription) {
+    ogDescription.setAttribute("content", copy.ogDescription);
+  }
+
+  if (languageToggle) {
+    languageToggle.setAttribute("aria-label", copy.languageLabel);
+  }
+
+  document.querySelectorAll("[data-i18n]").forEach((element) => {
+    const key = element.dataset.i18n;
+    if (copy[key]) {
+      element.textContent = copy[key];
+    }
+  });
+}
+
+function updateLanguageControls(language) {
+  document.querySelectorAll("[data-language]").forEach((button) => {
+    const active = button.dataset.language === language;
+    button.classList.toggle("is-active", active);
+    button.setAttribute("aria-pressed", String(active));
+  });
+}
+
+function renderPage() {
+  const site = getLocalizedSite(loadedSite, currentLanguage);
+  const gallery = getLocalizedGallery(loadedGallery, currentLanguage);
+
+  applyStaticCopy(currentLanguage);
+
+  Object.entries(site).forEach(([key, value]) => {
+    if (key !== "services") {
+      setField(key, value);
+    }
+  });
+
+  renderServices(site.services || defaultSite.services);
+  renderGallery(gallery.items || defaultGallery.items);
+  wireContactLinks(site);
+  updateLanguageControls(currentLanguage);
 }
 
 function normalizePhone(phone) {
@@ -207,22 +496,33 @@ function wireMenu() {
   });
 }
 
+function wireLanguageToggle() {
+  document.querySelectorAll("[data-language]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const language = button.dataset.language === "es" ? "es" : "en";
+
+      if (currentLanguage === language) {
+        return;
+      }
+
+      currentLanguage = language;
+      rememberLanguage(currentLanguage);
+      renderPage();
+    });
+  });
+}
+
 async function init() {
   const [site, gallery] = await Promise.all([
     loadJson("content/site.json", defaultSite),
     loadJson("content/gallery.json", defaultGallery)
   ]);
 
-  Object.entries({ ...defaultSite, ...site }).forEach(([key, value]) => {
-    if (key !== "services") {
-      setField(key, value);
-    }
-  });
-
-  renderServices(site.services || defaultSite.services);
-  renderGallery(gallery.items || defaultGallery.items);
-  wireContactLinks(site);
+  loadedSite = { ...defaultSite, ...site };
+  loadedGallery = gallery;
   wireMenu();
+  wireLanguageToggle();
+  renderPage();
 }
 
 init();

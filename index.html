@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to content</a>
+    <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
 
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
@@ -37,11 +37,15 @@
         </button>
 
         <div class="site-menu" id="site-menu">
-          <a href="#services">Services</a>
-          <a href="#work">Past Work</a>
-          <a href="#process">How It Works</a>
-          <a href="#contact">Contact</a>
-          <a class="button button-small js-phone-link" href="#contact">Call / Text</a>
+          <a href="#services" data-i18n="navServices">Services</a>
+          <a href="#work" data-i18n="navPastWork">Past Work</a>
+          <a href="#process" data-i18n="navProcess">How It Works</a>
+          <a href="#contact" data-i18n="navContact">Contact</a>
+          <div class="language-toggle" role="group" aria-label="Language">
+            <button class="language-option is-active" type="button" data-language="en" aria-pressed="true">English</button>
+            <button class="language-option" type="button" data-language="es" aria-pressed="false">Español</button>
+          </div>
+          <a class="button button-small js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
         </div>
       </nav>
     </header>
@@ -62,32 +66,32 @@
             Yard cleanup, trimming, repairs, and hauling for clean outdoor spaces.
           </p>
           <div class="hero-actions" aria-label="Contact actions">
-            <a class="button js-phone-link" href="#contact">Call / Text</a>
-            <a class="button button-quiet" href="#work">View Past Work</a>
+            <a class="button js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
+            <a class="button button-quiet" href="#work" data-i18n="viewPastWork">View Past Work</a>
           </div>
         </div>
       </section>
 
       <section class="quick-strip" aria-label="Service highlights">
         <div>
-          <strong>Free estimates</strong>
+          <strong data-i18n="quickFreeTitle">Free estimates</strong>
           <span data-site-field="estimateLine">Call or text to schedule a walk-through.</span>
         </div>
         <div>
-          <strong>Clean finish</strong>
-          <span>Trimming, weed removal, cleanup, and haul-away.</span>
+          <strong data-i18n="quickCleanTitle">Clean finish</strong>
+          <span data-i18n="quickCleanText">Trimming, weed removal, cleanup, and haul-away.</span>
         </div>
         <div>
-          <strong>Flexible jobs</strong>
-          <span>One-time projects, seasonal cleanups, and small repairs.</span>
+          <strong data-i18n="quickFlexibleTitle">Flexible jobs</strong>
+          <span data-i18n="quickFlexibleText">One-time projects, seasonal cleanups, and small repairs.</span>
         </div>
       </section>
 
       <section class="section section-tight" id="services">
         <div class="section-heading">
-          <p class="eyebrow">Services</p>
-          <h2>Outdoor work handled cleanly</h2>
-          <p>
+          <p class="eyebrow" data-i18n="servicesEyebrow">Services</p>
+          <h2 data-i18n="servicesTitle">Outdoor work handled cleanly</h2>
+          <p data-i18n="servicesIntro">
             From overgrown bushes to fence repairs and trash removal, Ramirez Landscaping keeps yards manageable and ready to use.
           </p>
         </div>
@@ -96,9 +100,9 @@
 
       <section class="section section-band" id="work">
         <div class="section-heading">
-          <p class="eyebrow">Past Work</p>
-          <h2>Before-and-after ready gallery</h2>
-          <p>
+          <p class="eyebrow" data-i18n="workEyebrow">Past Work</p>
+          <h2 data-i18n="workTitle">Before-and-after ready gallery</h2>
+          <p data-i18n="workIntro">
             This section is ready for real project photos from front yards, backyards, cleanup jobs, trimming work, and repairs.
           </p>
         </div>
@@ -108,28 +112,28 @@
       <section class="section" id="process">
         <div class="split-layout">
           <div class="section-heading section-heading-left">
-            <p class="eyebrow">How It Works</p>
-            <h2>Simple scheduling, tidy results</h2>
-            <p>
+            <p class="eyebrow" data-i18n="processEyebrow">How It Works</p>
+            <h2 data-i18n="processTitle">Simple scheduling, tidy results</h2>
+            <p data-i18n="processIntro">
               A straightforward flow makes it easy for homeowners to understand the job, agree on the work, and get the yard cleaned up.
             </p>
           </div>
           <ol class="process-list">
             <li>
-              <strong>Request an estimate</strong>
-              <span>Send the address, a few details, and photos if helpful.</span>
+              <strong data-i18n="processOneTitle">Request an estimate</strong>
+              <span data-i18n="processOneText">Send the address, a few details, and photos if helpful.</span>
             </li>
             <li>
-              <strong>Walk the yard</strong>
-              <span>Confirm trimming, cleanup, repair, or removal needs.</span>
+              <strong data-i18n="processTwoTitle">Walk the yard</strong>
+              <span data-i18n="processTwoText">Confirm trimming, cleanup, repair, or removal needs.</span>
             </li>
             <li>
-              <strong>Complete the work</strong>
-              <span>Trim, repair, remove weeds, clean gutters, or haul trash.</span>
+              <strong data-i18n="processThreeTitle">Complete the work</strong>
+              <span data-i18n="processThreeText">Trim, repair, remove weeds, clean gutters, or haul trash.</span>
             </li>
             <li>
-              <strong>Leave it clean</strong>
-              <span>Finish with a tidy work area and clear before-and-after results.</span>
+              <strong data-i18n="processFourTitle">Leave it clean</strong>
+              <span data-i18n="processFourText">Finish with a tidy work area and clear before-and-after results.</span>
             </li>
           </ol>
         </div>
@@ -138,32 +142,32 @@
       <section class="contact-section" id="contact">
         <div class="contact-panel">
           <div>
-            <p class="eyebrow">Contact</p>
+            <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
             <h2 data-site-field="businessName">Ramirez Landscaping</h2>
             <p data-site-field="contactIntro">
               Call or text for yard cleanup, trimming, fence repairs, gutter cleaning, trash removal, and weed removal.
             </p>
           </div>
           <div class="contact-actions">
-            <a class="button js-phone-link" href="#contact">Call / Text</a>
-            <a class="button button-quiet js-sms-link" href="#contact">Send Text</a>
-            <a class="button button-quiet js-email-link" href="#contact">Email</a>
+            <a class="button js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
+            <a class="button button-quiet js-sms-link" href="#contact" data-i18n="sendText">Send Text</a>
+            <a class="button button-quiet js-email-link" href="#contact" data-i18n="emailAction">Email</a>
           </div>
           <dl class="contact-details">
             <div>
-              <dt>Phone</dt>
+              <dt data-i18n="phoneLabel">Phone</dt>
               <dd data-site-field="phoneDisplay">Add phone number before launch</dd>
             </div>
             <div>
-              <dt>Email</dt>
+              <dt data-i18n="emailLabel">Email</dt>
               <dd data-site-field="email">Add email before launch</dd>
             </div>
             <div>
-              <dt>Service area</dt>
+              <dt data-i18n="serviceAreaLabel">Service area</dt>
               <dd data-site-field="serviceArea">Serving Lathrop</dd>
             </div>
             <div>
-              <dt>Hours</dt>
+              <dt data-i18n="hoursLabel">Hours</dt>
               <dd data-site-field="hours">Call or text for availability</dd>
             </div>
           </dl>
