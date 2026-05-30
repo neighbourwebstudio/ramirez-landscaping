@@ -49,7 +49,7 @@ const defaultGallery = {
   items: [
     {
       title: "Front yard bush trimming",
-      location: "Sample gallery slot",
+      location: "Lathrop",
       image:
         "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=78",
       alt: "Trimmed front yard landscaping with shrubs and plants",
@@ -57,7 +57,7 @@ const defaultGallery = {
     },
     {
       title: "Backyard cleanup",
-      location: "Sample gallery slot",
+      location: "Lathrop",
       image:
         "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=900&q=78",
       alt: "Clean backyard garden area with tools and plants",
@@ -65,7 +65,7 @@ const defaultGallery = {
     },
     {
       title: "Fence and yard detail",
-      location: "Sample gallery slot",
+      location: "Lathrop",
       image:
         "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=900&q=78",
       alt: "Clean yard near a wood fence",
