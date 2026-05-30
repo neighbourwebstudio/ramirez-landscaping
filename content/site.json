@@ -1,0 +1,44 @@
+{
+  "businessName": "Ramirez Landscaping",
+  "shortLine": "Landscape & yard cleanup",
+  "serviceArea": "Serving Lathrop",
+  "tagline": "Yard cleanup, trimming, repairs, and hauling for clean outdoor spaces.",
+  "estimateLine": "Call or text to schedule a walk-through.",
+  "contactIntro": "Call or text for yard cleanup, trimming, fence repairs, gutter cleaning, trash removal, and weed removal.",
+  "phone": "209-420-5721",
+  "phoneDisplay": "209-420-5721",
+  "email": "Tommy_09@live.com.mx",
+  "hours": "Call or text for availability",
+  "footerLine": "Tree trimming, bush trimming, fence repairs, trash removal, yard cleaning, gutter cleaning, and weed removal.",
+  "heroImage": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=1800&q=82",
+  "services": [
+    {
+      "title": "Tree trimming",
+      "description": "Trim back branches, open up walkways, and keep trees away from fences and structures."
+    },
+    {
+      "title": "Bush and hedge trimming",
+      "description": "Shape front-yard and backyard bushes so entrances, windows, and paths look clean."
+    },
+    {
+      "title": "Fence repairs",
+      "description": "Handle small fence fixes, loose boards, leaning sections, and basic repair needs."
+    },
+    {
+      "title": "Trash removal",
+      "description": "Remove yard debris, unwanted outdoor items, and cleanup waste after a job."
+    },
+    {
+      "title": "General yard cleaning",
+      "description": "Clean up overgrowth, fallen leaves, cluttered corners, and neglected outdoor areas."
+    },
+    {
+      "title": "Gutter cleaning",
+      "description": "Clear gutters and downspouts so rainwater can move away from the home."
+    },
+    {
+      "title": "Weed removal",
+      "description": "Pull and clear weeds from garden beds, fence lines, walkways, and yard edges."
+    }
+  ]
+}

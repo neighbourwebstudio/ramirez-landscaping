@@ -1,0 +1,51 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://ramirezlandscaping.netlify.app
+display_url: https://ramirezlandscaping.netlify.app
+
+collections:
+  - name: "content"
+    label: "Website Content"
+    files:
+      - name: "site"
+        label: "Main Website Text"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Business Name", name: "businessName", widget: "string" }
+          - { label: "Short Line", name: "shortLine", widget: "string" }
+          - { label: "Service Area", name: "serviceArea", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "text" }
+          - { label: "Estimate Line", name: "estimateLine", widget: "string" }
+          - { label: "Contact Intro", name: "contactIntro", widget: "text" }
+          - { label: "Phone Number", name: "phone", widget: "string", required: false }
+          - { label: "Phone Display", name: "phoneDisplay", widget: "string" }
+          - { label: "Email", name: "email", widget: "string", required: false }
+          - { label: "Hours", name: "hours", widget: "string" }
+          - { label: "Footer Line", name: "footerLine", widget: "text" }
+          - { label: "Hero Image", name: "heroImage", widget: "image", required: false }
+          - label: "Services"
+            name: "services"
+            widget: "list"
+            fields:
+              - { label: "Service Name", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+      - name: "gallery"
+        label: "Past Work Gallery"
+        file: "content/gallery.json"
+        format: "json"
+        fields:
+          - label: "Gallery Photos"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Image Description", name: "alt", widget: "string" }
+              - { label: "Description", name: "description", widget: "text", required: false }
