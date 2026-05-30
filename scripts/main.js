@@ -53,7 +53,7 @@ const defaultGallery = {
       image:
         "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=78",
       alt: "Trimmed front yard landscaping with shrubs and plants",
-      description: "Replace this sample with a real front yard trimming photo."
+      description: "Front yard bush trimming work can be featured here when photos are ready."
     },
     {
       title: "Backyard cleanup",
@@ -69,7 +69,7 @@ const defaultGallery = {
       image:
         "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=900&q=78",
       alt: "Clean yard near a wood fence",
-      description: "Add real repair and cleanup photos after the first projects are ready."
+      description: "Fence repair and yard cleanup photos can be added here as more work is photographed."
     },
     {
       title: "Gutter cleaning before and after",
