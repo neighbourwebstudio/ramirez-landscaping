@@ -19,7 +19,8 @@ collections:
         fields:
           - { label: "Business Name", name: "businessName", widget: "string" }
           - { label: "Short Line", name: "shortLine", widget: "string" }
-          - { label: "Service Area", name: "serviceArea", widget: "string" }
+          - { label: "Hero Service Area", name: "serviceAreaShort", widget: "string" }
+          - { label: "Full Service Area", name: "serviceArea", widget: "string" }
           - { label: "Tagline", name: "tagline", widget: "text" }
           - { label: "Estimate Line", name: "estimateLine", widget: "string" }
           - { label: "Contact Intro", name: "contactIntro", widget: "text" }

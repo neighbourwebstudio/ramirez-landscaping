@@ -1,7 +1,8 @@
 const defaultSite = {
   businessName: "Ramirez Landscaping",
   shortLine: "Landscape & yard cleanup",
-  serviceArea: "Serving Lathrop",
+  serviceAreaShort: "Serving the Central Valley region",
+  serviceArea: "Lathrop, Tracy, Livermore, Stockton, Manteca, Modesto, and Sacramento",
   tagline: "Yard cleanup, trimming, fence work, repairs, and hauling for clean outdoor spaces.",
   estimateLine: "Call or text to schedule a walk-through.",
   contactIntro:
@@ -49,7 +50,7 @@ const defaultGallery = {
   items: [
     {
       title: "Front yard bush trimming",
-      location: "Lathrop",
+      location: "Manteca",
       image:
         "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=900&q=78",
       alt: "Trimmed front yard landscaping with shrubs and plants",
@@ -57,7 +58,7 @@ const defaultGallery = {
     },
     {
       title: "Backyard cleanup",
-      location: "Lathrop",
+      location: "Stockton",
       image:
         "https://images.unsplash.com/photo-1558904541-efa843a96f01?auto=format&fit=crop&w=900&q=78",
       alt: "Clean backyard garden area with tools and plants",
@@ -65,28 +66,28 @@ const defaultGallery = {
     },
     {
       title: "Fence repair",
-      location: "Lathrop",
+      location: "Tracy",
       image: "assets/uploads/fence-repair-example.jpg",
       alt: "Repaired wooden backyard fence with fresh replacement boards",
       description: "Loose boards and damaged sections repaired for a cleaner, safer fence line."
     },
     {
       title: "Fence painting and staining",
-      location: "Lathrop",
+      location: "Modesto",
       image: "assets/uploads/fence-painting-staining-example.jpg",
       alt: "Freshly painted or stained wooden backyard fence",
       description: "Fresh paint or stain helps protect wood and gives the yard a clean finished look."
     },
     {
       title: "New fence installation",
-      location: "Lathrop",
+      location: "Livermore",
       image: "assets/uploads/new-fence-installation-example.jpg",
       alt: "Newly installed wooden privacy fence in a backyard",
       description: "New fence panels installed with straight posts, clean lines, and a tidy finish."
     },
     {
       title: "Fence and yard detail",
-      location: "Lathrop",
+      location: "Sacramento",
       image:
         "https://images.unsplash.com/photo-1598902108854-10e335adac99?auto=format&fit=crop&w=900&q=78",
       alt: "Clean yard near a wood fence",
@@ -104,10 +105,10 @@ const defaultGallery = {
 
 const staticCopy = {
   en: {
-    title: "Ramirez Landscaping | Lathrop Yard Cleaning, Fence Work, Trimming",
+    title: "Ramirez Landscaping | Yard & Fence Services Near Lathrop",
     description:
-      "Ramirez Landscaping helps Lathrop homeowners with tree trimming, bush trimming, fence repair, fence cleaning, fence painting, new fence installation, trash removal, yard cleaning, gutter cleaning, and weed removal.",
-    ogDescription: "Lathrop landscaping, fence work, trimming, repairs, and cleanup services.",
+      "Ramirez Landscaping serves Lathrop, Tracy, Livermore, Stockton, Manteca, Modesto, and Sacramento with tree trimming, yard cleanup, fence work, gutter cleaning, trash removal, and weed removal.",
+    ogDescription: "Yard cleanup, fence work, trimming, repairs, and hauling near Lathrop.",
     languageLabel: "Language",
     skipLink: "Skip to content",
     navServices: "Services",
@@ -150,10 +151,10 @@ const staticCopy = {
     hoursLabel: "Hours"
   },
   es: {
-    title: "Ramirez Landscaping | Limpieza, cercas y poda en Lathrop",
+    title: "Ramirez Landscaping | Limpieza y cercas cerca de Lathrop",
     description:
-      "Ramirez Landscaping ayuda a dueños de casa en Lathrop con poda de árboles, poda de arbustos, reparación de cercas, limpieza de cercas, pintura de cercas, instalación de cercas nuevas, retiro de basura, limpieza de yardas, limpieza de canaletas y retiro de maleza.",
-    ogDescription: "Paisajismo, cercas, poda, reparaciones y limpieza en Lathrop.",
+      "Ramirez Landscaping sirve a Lathrop, Tracy, Livermore, Stockton, Manteca, Modesto y Sacramento con poda de árboles, limpieza de yardas, cercas, limpieza de canaletas, retiro de basura y retiro de maleza.",
+    ogDescription: "Limpieza de yardas, cercas, poda, reparaciones y retiro cerca de Lathrop.",
     languageLabel: "Idioma",
     skipLink: "Saltar al contenido",
     navServices: "Servicios",
@@ -199,7 +200,8 @@ const staticCopy = {
 
 const spanishSiteText = {
   shortLine: "Paisajismo y limpieza de yardas",
-  serviceArea: "Sirviendo a Lathrop",
+  serviceAreaShort: "Sirviendo la región del Valle Central",
+  serviceArea: "Lathrop, Tracy, Livermore, Stockton, Manteca, Modesto y Sacramento",
   tagline: "Limpieza de yardas, poda, cercas, reparaciones y retiro para espacios exteriores limpios.",
   estimateLine: "Llame o envíe texto para programar una visita.",
   contactIntro:
