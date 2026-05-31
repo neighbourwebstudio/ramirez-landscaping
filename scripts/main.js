@@ -129,7 +129,7 @@ const staticCopy = {
     workEyebrow: "Gallery",
     workTitle: "Project examples and past work",
     workIntro:
-      "This section can show Ramirez project photos as they become available, along with service examples for fence work, cleanup, trimming, and repairs.",
+      "Browse examples of yard cleanup, trimming, fence work, gutter cleaning, and repairs for homes across the Central Valley.",
     processEyebrow: "How It Works",
     processTitle: "Simple scheduling, tidy results",
     processIntro:
@@ -175,7 +175,7 @@ const staticCopy = {
     workEyebrow: "Galería",
     workTitle: "Ejemplos de trabajo y proyectos",
     workIntro:
-      "Esta sección puede mostrar fotos reales de Ramirez cuando estén disponibles, junto con ejemplos de servicios de cercas, limpieza, poda y reparaciones.",
+      "Vea ejemplos de limpieza de yardas, poda, cercas, limpieza de canaletas y reparaciones para hogares en el Valle Central.",
     processEyebrow: "Cómo funciona",
     processTitle: "Agenda fácil, resultados limpios",
     processIntro:
