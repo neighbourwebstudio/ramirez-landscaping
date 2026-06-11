@@ -16,6 +16,15 @@
     <meta property="og:type" content="website">
     <link rel="preconnect" href="https://images.unsplash.com">
     <link rel="stylesheet" href="styles.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KEFBCB7ZTP"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-KEFBCB7ZTP");
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#main" data-i18n="skipLink">Skip to content</a>
@@ -45,7 +54,7 @@
             <button class="language-option is-active" type="button" data-language="en" aria-pressed="true">English</button>
             <button class="language-option" type="button" data-language="es" aria-pressed="false">Español</button>
           </div>
-          <a class="button button-small js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
+          <a class="button button-small js-phone-link" href="#contact" data-i18n="callText" data-analytics-event="click_call_text" data-analytics-label="Header call/text">Call / Text</a>
         </div>
       </nav>
     </header>
@@ -66,8 +75,8 @@
             Yard cleanup, trimming, fence work, repairs, and hauling for clean outdoor spaces.
           </p>
           <div class="hero-actions" aria-label="Contact actions">
-            <a class="button js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
-            <a class="button button-quiet" href="#work" data-i18n="viewPastWork">View Gallery</a>
+            <a class="button js-phone-link" href="#contact" data-i18n="callText" data-analytics-event="click_call_text" data-analytics-label="Hero call/text">Call / Text</a>
+            <a class="button button-quiet" href="#work" data-i18n="viewPastWork" data-analytics-event="click_view_gallery" data-analytics-label="Hero view gallery">View Gallery</a>
           </div>
         </div>
       </section>
@@ -149,9 +158,9 @@
             </p>
           </div>
           <div class="contact-actions">
-            <a class="button js-phone-link" href="#contact" data-i18n="callText">Call / Text</a>
-            <a class="button button-quiet js-sms-link" href="#contact" data-i18n="sendText">Send Text</a>
-            <a class="button button-quiet js-email-link" href="#contact" data-i18n="emailAction">Email</a>
+            <a class="button js-phone-link" href="#contact" data-i18n="callText" data-analytics-event="click_call_text" data-analytics-label="Contact call/text">Call / Text</a>
+            <a class="button button-quiet js-sms-link" href="#contact" data-i18n="sendText" data-analytics-event="click_send_text" data-analytics-label="Contact send text">Send Text</a>
+            <a class="button button-quiet js-email-link" href="#contact" data-i18n="emailAction" data-analytics-event="click_email" data-analytics-label="Contact email">Email</a>
           </div>
           <dl class="contact-details">
             <div>

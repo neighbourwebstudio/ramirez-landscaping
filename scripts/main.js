@@ -550,6 +550,28 @@ function wireLanguageToggle() {
   });
 }
 
+function trackAnalyticsEvent(eventName, label) {
+  if (typeof window.gtag !== "function") {
+    return;
+  }
+
+  window.gtag("event", eventName, {
+    event_category: "website_engagement",
+    event_label: label || eventName
+  });
+}
+
+function wireAnalyticsEvents() {
+  document.addEventListener("click", (event) => {
+    const target = event.target.closest("[data-analytics-event]");
+    if (!target) {
+      return;
+    }
+
+    trackAnalyticsEvent(target.dataset.analyticsEvent, target.dataset.analyticsLabel);
+  });
+}
+
 async function init() {
   const [site, gallery] = await Promise.all([
     loadJson("content/site.json", defaultSite),
@@ -560,6 +582,7 @@ async function init() {
   loadedGallery = gallery;
   wireMenu();
   wireLanguageToggle();
+  wireAnalyticsEvents();
   renderPage();
 }
 
